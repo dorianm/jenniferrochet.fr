@@ -1,4 +1,6 @@
-nodes_modules/
+# Npm dependencies
+node_modules/
 
+# Intellij files
 .idea/
 *.iml
