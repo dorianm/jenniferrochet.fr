@@ -180,7 +180,7 @@ a:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link:focus {
-    color: #227fe8;
+    color: #54BAD8;
     background: transparent;
 }
 
@@ -236,8 +236,8 @@ a:focus {
 
 #home {
     padding: 0;
-    color: #fff;
-    background-image: url(../img/cover/home.jpg);
+    color: #F7DC1B;
+    background-image: url(../img/cover/pattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -440,7 +440,7 @@ a:focus {
 }
 
 #contact {
-    background: url(../img/cover/contact.jpg);
+    background: url(../img/cover/architecture.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -497,9 +497,9 @@ a:focus {
     color: #d34836
 }
 
-#footer .social li .dribbble:hover,
-#footer .social li .dribbble:focus {
-    color: #ea4c89
+#footer .social li .linkedin:hover,
+#footer .social li .linkedin:focus {
+    color: #1178B3
 }
 
 #footer .copyright {
