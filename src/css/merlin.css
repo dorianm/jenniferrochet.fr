@@ -180,7 +180,7 @@ a:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link:focus {
-    color: #54BAD8;
+    color: #2FA6D4;
     background: transparent;
 }
 
@@ -216,7 +216,7 @@ a:focus {
     height: 2px;
     margin-left: auto;
     margin-right: auto;
-    background: #f5b76a;
+    background: #BFEBFF;
 }
 
 .page.overlay:after {
@@ -236,7 +236,7 @@ a:focus {
 
 #home {
     padding: 0;
-    color: #F7DC1B;
+    color: #2FA6D4;
     background-image: url(../img/cover/pattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -453,7 +453,8 @@ a:focus {
     color: #fff
 }
 
-#contact .heading .border {
+#contact .heading .border,
+#experiences .heading .border{
     background: #fff
 }
 
@@ -510,10 +511,34 @@ a:focus {
     color: #222;
 }
 
-img.round {
+.round {
     border-radius: 50%;
 }
 
+#experiences {
+    background: #BFEBFF;
+}
+
+.experience {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.pro-experience {
+    color: #449989;
+}
+
+.univ-experience {
+    color: #2FA6D4;
+}
+
+.colored-icon .far {
+    color: #BFEBFF;
+}
+
+.colored-icon .fas {
+    color: #2FA6D4;
+}
 
 /* Venobox */
 

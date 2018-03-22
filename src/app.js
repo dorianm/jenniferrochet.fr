@@ -6,7 +6,7 @@ import './css/merlin.css';
 function initNavbar() {
 
     var SCROLL_SPEED = 750;
-    var SCROLL_OFFSET = 50;
+    var SCROLL_OFFSET = 0;
     var EASING = "swing";
 
     var $navTop = $("#navbar-top");
@@ -40,44 +40,6 @@ function initNavbar() {
         $("html, body").stop().animate({
             scrollTop: $($(this).attr("href")).offset().top - SCROLL_OFFSET
         }, SCROLL_SPEED, EASING);
-    });
-}
-
-function initPortfolio() {
-
-    var $portfolio = $("#portfolio");
-    var $items = $portfolio.find(".items");
-    var $filters = $portfolio.find(".filters li a");
-
-    $items.imagesLoaded(function() {
-
-        $items.isotope({
-            itemSelector: ".item",
-            layoutMode: "fitRows",
-            transitionDuration: "0.7s"
-        });
-    });
-
-    $filters.click(function() {
-
-        var $el = $(this);
-
-        $filters.removeClass("active");
-
-        $el.addClass("active");
-
-        var selector = $el.attr("data-filter");
-
-        $items.isotope({
-            filter: selector
-        });
-
-        return false;
-    });
-
-    $items.find(".item a").venobox({
-        border: "2rem",
-        closeBackground: "transparent"
     });
 }
 
@@ -124,9 +86,7 @@ function initAnimations() {
 }
 
 $(document).ready(function() {
-
     initNavbar();
-    initPortfolio();
     initAnimations();
 });
 
