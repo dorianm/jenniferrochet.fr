@@ -510,6 +510,10 @@ a:focus {
     color: #222;
 }
 
+img.round {
+    border-radius: 50%;
+}
+
 
 /* Venobox */
 
