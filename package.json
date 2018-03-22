@@ -1,0 +1,22 @@
+{
+  "name": "jenniferrochet.fr",
+  "version": "1.0.0",
+  "description": "jenniferrochet.fr website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorianm/jenniferrochet.fr.git"
+  },
+  "author": "Dorian Monnier",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/dorianm/jenniferrochet.fr/issues"
+  },
+  "homepage": "https://github.com/dorianm/jenniferrochet.fr"
+}
