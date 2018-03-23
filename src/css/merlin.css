@@ -172,7 +172,7 @@ a:focus {
     width: 100%;
     height: 100%;
     content: "";
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.75);
 }
 
 .page.overlay .content {
@@ -182,7 +182,7 @@ a:focus {
 
 #home {
     padding: 0;
-    color: #d1b911;
+    color: #5c93bc;
     background-image: url(../img/cover/pattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -190,7 +190,7 @@ a:focus {
 }
 
 #home h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     line-height: 1;
 }
 
@@ -369,8 +369,8 @@ ul.personality li:nth-child(odd) {
 
 @media (min-width: 576px) {
     .page .content.cover {
-        margin-top: 12rem;
-        margin-bottom: 12rem;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
     }
     #portfolio .items li {
         width: 50%;
@@ -382,8 +382,8 @@ ul.personality li:nth-child(odd) {
 
 @media (min-width: 768px) {
     .page .content.cover {
-        margin-top: 16rem;
-        margin-bottom: 16rem;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
     }
     #portfolio .items li {
         width: 25%;
@@ -395,8 +395,8 @@ ul.personality li:nth-child(odd) {
 
 @media (min-width: 992px) {
     .page .content.cover {
-        margin-top: 20rem;
-        margin-bottom: 20rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
     }
     .navbar-light .navbar-nav .nav-link {
         padding-right: 1rem;
