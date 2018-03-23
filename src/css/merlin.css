@@ -255,6 +255,12 @@ ul.personality li:nth-child(odd) {
     font-weight: bold;
 }
 
+/** Passions **/
+
+#hobbies {
+    background: #eee;
+}
+
 /** Contact **/
 
 #contact {
