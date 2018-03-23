@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname, 'docs/'),
-        filename: `bundle.min.js`
+        filename: 'bundle.min.js'
     },
     module: {
         rules: [
@@ -18,9 +18,7 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: [
-                    'file-loader'
-                ]
+                loader: 'file-loader?name=[name].[ext]'
             },
             {
                 test: /\.(html)$/,
