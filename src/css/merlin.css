@@ -194,8 +194,16 @@ a:focus {
     line-height: 1;
 }
 
-#about .content {
-    margin-bottom: 0;
+.fa-pencil-alt {
+    color: #333;
+}
+
+.fa-lightbulb {
+    color: #d1b911;
+}
+
+.fa-comments {
+    color: #5c93bc;
 }
 
 
@@ -203,7 +211,7 @@ a:focus {
     background: #5c93bc;
 }
 
-#experiences h2 {
+#experiences h3 {
     color: #d1b911;
 }
 
@@ -215,21 +223,17 @@ a:focus {
     color: #fff;
 }
 
-#experiences h3 {
-    color: #d1b911;
-}
-
 .experience {
     font-weight: bold;
     font-size: 1.05em;
 }
 
 .pro-experience {
-    color: #d1b911;
+    color: #fff;
 }
 
 .univ-experience {
-    color: #d1b911;
+    color: #fff;
 }
 
 /** Compétences **/
@@ -239,7 +243,7 @@ a:focus {
 }
 
 .colored-icon .fas {
-    color: #2FA6D4;
+    color: #5c93bc;
 }
 
 ul.personality {
