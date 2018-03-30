@@ -302,6 +302,11 @@ ul.personality li:nth-child(odd) {
     color: #3b5998
 }
 
+#contact a.pinterest:hover,
+#contact a.pinterest:focus {
+	color: #bd081c
+}
+
 #contact a.twitter:hover,
 #contact a.twitter:focus {
     color: #00aced
