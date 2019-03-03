@@ -31,13 +31,13 @@ h6 {
 }
 
 a {
-    color: #2d2d2d;
+    color: rgb(45, 45, 45);
     cursor: pointer;
 }
 
 a:hover,
 a:focus {
-    color: #0c86b6;
+    color: rgb(12, 134, 182);
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ a:focus {
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 .loading {
@@ -66,12 +66,12 @@ a:focus {
     margin: -2rem 0 0 -2rem;
     text-indent: -9999rem;
     border-radius: 50%;
-    background: #233b6f;
-    background: -moz-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
-    background: -webkit-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
-    background: -o-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
-    background: -ms-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
-    background: linear-gradient(to right, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    background: rgb(35, 59, 111);
+    background: -moz-linear-gradient(left, rgb(35, 59, 111) 10%, rgba(35,59,111, 0) 42%);
+    background: -webkit-linear-gradient(left, rgb(35, 59, 111) 10%, rgba(35,59,111, 0) 42%);
+    background: -o-linear-gradient(left, rgb(35, 59, 111) 10%, rgba(35,59,111, 0) 42%);
+    background: -ms-linear-gradient(left, rgb(35, 59, 111) 10%, rgba(35,59,111, 0) 42%);
+    background: linear-gradient(to right, rgb(35, 59, 111) 10%, rgba(35,59,111, 0) 42%);
     -webkit-animation: loading 1s infinite linear;
     animation: loading 1s infinite linear;
     -webkit-transform: translateZ(0);
@@ -86,7 +86,7 @@ a:focus {
     width: 50%;
     height: 50%;
     content: "";
-    background: #233b6f;
+    background: rgb(35, 59, 111);
     border-radius: 100% 0 0 0;
 }
 
@@ -100,13 +100,13 @@ a:focus {
     width: 94%;
     height: 94%;
     content: "";
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 50%;
 }
 
 .navbar-light {
     margin-bottom: 0;
-    background: #fff;
+    background: rgb(255, 255, 255);
     -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2);
@@ -114,7 +114,7 @@ a:focus {
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    color: #666;
+    color: rgb(102, 102, 102);
     text-transform: uppercase;
 }
 
@@ -126,7 +126,7 @@ a:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link:hover,
 .navbar-light .navbar-nav .active > .nav-link:focus {
-    color: #d1b911;
+    color: rgb(209, 185, 17);
     background: transparent;
 }
 
@@ -162,7 +162,7 @@ a:focus {
     height: 2px;
     margin-left: auto;
     margin-right: auto;
-    background: #d1b911;
+    background: rgb(209, 185, 17);
 }
 
 .page.overlay:after {
@@ -182,7 +182,7 @@ a:focus {
 
 #home {
     padding: 0;
-    color: #5c93bc;
+    color: rgb(92, 147, 188);
     background-image: url(../img/cover/pattern-2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -195,32 +195,32 @@ a:focus {
 }
 
 .fa-pencil-alt {
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .fa-lightbulb {
-    color: #d1b911;
+    color: rgb(209, 185, 17);
 }
 
 .fa-comments {
-    color: #5c93bc;
+    color: rgb(92, 147, 188);
 }
 
 
 #experiences {
-    background: #5c93bc;
+    background: rgb(92, 147, 188);
 }
 
 #experiences h3 {
-    color: #d1b911;
+    color: rgb(209, 185, 17);
 }
 
 #experiences .heading .border {
-    background: #fff
+    background: rgb(255, 255, 255);
 }
 
 #experiences {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .experience {
@@ -229,26 +229,30 @@ a:focus {
 }
 
 .pro-experience {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .univ-experience {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 /** Compétences **/
 
 .colored-icon .far {
-    color: #BFEBFF;
+    color: rgb(191, 235, 255);
 }
 
 .colored-icon .fas {
-    color: #5c93bc;
+    color: rgb(92, 147, 188);
 }
 
 #competences ul {
     list-style-type: none;
-    padding-left: 0px;
+    padding-left: 0;
+}
+
+#competences ul li {
+    list-style-type: none;
 }
 
 #competences ul li:nth-child(odd) {
@@ -258,7 +262,7 @@ a:focus {
 /** Passions **/
 
 #hobbies {
-    background: #eee;
+    background: rgb(238, 238, 238);
 }
 
 #hobbies h3 {
@@ -268,24 +272,24 @@ a:focus {
 /** Contact **/
 
 #contact {
-    background: #d1b911;
+    background: rgb(209, 185, 17);
 }
 
 #contact .heading .border {
-    background: #fff
+    background: rgb(255, 255, 255);
 }
 
 #contact {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #contact h3 {
-    color: #244048;
+    color: rgb(36, 64, 72);
 }
 
 #contact a {
     display: block;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #contact i {
@@ -294,40 +298,35 @@ a:focus {
 
 #contact a.email:hover,
 #contact a.email:focus {
-    color: #5c93bc;
+    color: rgb(92, 147, 188);
 }
 
 #contact a.facebook:hover,
 #contact a.facebook:focus {
-    color: #3b5998
+    color: rgb(59, 89, 152)
 }
 
 #contact a.pinterest:hover,
 #contact a.pinterest:focus {
-	color: #bd081c
-}
-
-#contact a.twitter:hover,
-#contact a.twitter:focus {
-    color: #00aced
+	color: rgb(189, 8, 28)
 }
 
 #contact a.linkedin:hover,
 #contact a.linkedin:focus {
-    color: #1178B3
+    color: rgb(17, 120, 179)
 }
 
 #footer {
     padding: 1rem 0;
-    color: #ccc;
+    color: rgb(204, 204, 204);
     text-align: center;
-    background: black;
+    background: rgb(0, 0, 0);
 }
 
 #footer a,
 #footer a:hover,
 #footer a:focus {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 #footer .copyright {
