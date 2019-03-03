@@ -246,12 +246,12 @@ a:focus {
     color: #5c93bc;
 }
 
-ul.personality {
+#competences ul {
     list-style-type: none;
     padding-left: 0px;
 }
 
-ul.personality li:nth-child(odd) {
+#competences ul li:nth-child(odd) {
     font-weight: bold;
 }
 
